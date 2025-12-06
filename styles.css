@@ -412,20 +412,21 @@ footer {
 
 /* Lado izquierdo */
 .timeline-images.left {
-    left: -470px;
+    left: -350px;
 }
 
 .timeline-images.left img{
-    width: 420px;
+    width: 350px;
 }
 
 /* Lado derecho */
 .timeline-images.right {
-    right: -480px;
+    right: -360px;
 }
 
 .timeline-images.right img{
-    width: 430px;
+    width: 380px;
+    height: 720px;
 }
 
 /* Modal para imágenes */
@@ -472,9 +473,9 @@ footer {
     padding: 50px;
     border-radius: 18px;
     width: 600px;
-    max-width: 600px;
-    min-width: 550px;
-    max-height: 85vh;
+    max-width: 500px;
+    min-width: 440px;
+    max-height: 50vh;
     overflow-y: auto;
     box-shadow: 0 20px 70px rgba(0, 0, 0, 0.6);
     border: 5px solid var(--secondary-color);
@@ -501,7 +502,7 @@ footer {
 
 .modal-info h3 {
     color: var(--primary-color);
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     margin-bottom: 25px;
     padding-bottom: 20px;
     border-bottom: 4px solid var(--secondary-color);
@@ -512,7 +513,7 @@ footer {
 
 .modal-info p {
     color: var(--dark-color);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2;
     text-align: justify;
     font-weight: 400;
@@ -626,7 +627,7 @@ footer {
 .caracteristicas-text h3 {
     color: var(--primary-color);
     margin-bottom: 20px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .caracteristicas-text p {
@@ -644,7 +645,7 @@ footer {
     margin-bottom: 15px;
     padding-left: 25px;
     position: relative;
-    line-height: 1.7;
+    line-height: 1.1;
 }
 
 .caracteristicas-text ul li::before {
@@ -661,8 +662,8 @@ footer {
 }
 
 .caracteristicas-image img {
-    width: 900px;
-    height: auto;
+    width: 600px;
+    height: 730px;
     border-radius: 12px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
     border: 4px solid var(--secondary-color);
